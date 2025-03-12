@@ -49,3 +49,36 @@ else:
   print("Name looks good")
 
 # While Loops
+i = 1
+while i <= 5:
+  print(i)
+  i += 1
+print("done") 
+
+
+# another example in pattern
+i = 1
+while i <= 5:
+  print("*" * i)
+  i += 1
+
+
+# forloop
+for item in 'Python':
+  print(item)
+
+for item in ["Apple" , "Rani" , "Orange"]:
+  print(item)
+
+for item in [1,2,3,4,5]:
+  print(item)
+
+for item in range(1,10,2):
+  print(item)
+
+# nested loops
+for x in range(4):
+  for y in range(3):
+    print(f"({x},{y})")
+    
+  
